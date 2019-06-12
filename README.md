@@ -1,5 +1,5 @@
-# domelement-to-react
-Convert DOM elements to React
+# html-element-to-react
+Convert HTML DOM elements to React
 
 ```js
 import React from 'react'

@@ -1,7 +1,7 @@
 {
-  "name": "domelement-to-react",
+  "name": "html-element-to-react",
   "version": "0.1.0",
-  "description": "Convert DOM elements to React elements",
+  "description": "Convert HTML DOM elements to React elements",
   "main": "dist/index.js",
   "scripts": {
     "babel": "./node_modules/.bin/babel src -d dist",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaaijs/domelement-to-react.git"
+    "url": "git+https://github.com/shaaijs/html-element-to-react"
   },
   "keywords": [
     "react",
