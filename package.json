@@ -1,0 +1,35 @@
+{
+  "name": "domelement-to-react",
+  "version": "0.1.0",
+  "description": "Convert DOM elements to React elements",
+  "main": "dist/index.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaaijs/domelement-to-react.git"
+  },
+  "keywords": [
+    "react",
+    "dom",
+    "convert",
+    "element",
+    "node"
+  ],
+  "author": "Shaai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaaijs/domelement-to-react/issues"
+  },
+  "homepage": "https://github.com/shaaijs/domelement-to-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
