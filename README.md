@@ -1,6 +1,9 @@
 # html-element-to-react
 Convert HTML DOM elements to React
 
+`npm i --save html-element-to-react`
+
+### Usage
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
