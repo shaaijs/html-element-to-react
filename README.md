@@ -7,7 +7,7 @@ Convert HTML DOM elements to React
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { convert } from 'domelement-to-react'
+import { convert } from 'html-element-to-react'
 
 const App = convert(htmlElement)
 
