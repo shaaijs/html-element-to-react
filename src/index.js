@@ -50,6 +50,7 @@ function getChildren(elements) {
 }
 
 export const convert = function(domElement) {
+    if(!domElement) return null;
     let props = { ...getProps(domElement) }
     return React.createElement(domElement.tagName.toLowerCase(), props === {} ? null : props, ...getChildren(domElement.children))
 }
