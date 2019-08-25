@@ -17,6 +17,10 @@ function getProps(el) {
         if(k === 'className') {
             props[k] = el[k]
         }
+
+        if (k === "src") {
+            props[k] = el[k];
+        }
     }
     props = Object.assign(props, events)
     return props
@@ -30,6 +34,13 @@ function getChildren(elements) {
         let props = { ...getProps(el) }
         if (el.childElementCount) {
             children.push(React.createElement(el.tagName.toLowerCase(), props === {} ? null : props, ...getChildren(el.children)))
+        } else if (el.tagName.toLowerCase() === 'img') {
+            children.push(
+                React.createElement(
+                  el.tagName.toLowerCase(),
+                  props === {} ? null : props
+                )
+            );
         } else if (el.textContent) {
             children.push(React.createElement(el.tagName.toLowerCase(), props === {} ? null : props, el.textContent))
         }
