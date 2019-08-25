@@ -1,6 +1,6 @@
 {
   "name": "html-element-to-react",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Convert HTML DOM elements to React elements",
   "main": "dist/index.js",
   "scripts": {
